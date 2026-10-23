@@ -31,7 +31,10 @@
                     case "del": element= int.Parse(cmd[1]);
                         nums.Remove(element);
                         break;
-
+                    case "add": int num1= int.Parse(cmd[1]);
+                        int num2= int.Parse(cmd[2]);
+                        nums.Add(num1+num2);
+                        break;
 
                     //TO DO
                     default:
