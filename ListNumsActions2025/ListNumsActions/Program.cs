@@ -22,9 +22,10 @@
                     case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
-                    case "contains":
-                        
-                        //TODO
+                    case "contains": int element= int.Parse(cmd[1]);
+                        if(nums.Contains(element))
+                            Console.WriteLine("Yes");
+                        else Console.WriteLine("No");
                         break;
 
 
