@@ -23,12 +23,15 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "del":
+
                         
-                        //TODO
+                        
+                        break;
+                    case "remove":
+                        int removeIndex = int.Parse(cmd[1]);
+                        nums.RemoveAt(removeIndex);
                         break;
 
-
-                    //TO DO
                     default:
                         break;
                 }
