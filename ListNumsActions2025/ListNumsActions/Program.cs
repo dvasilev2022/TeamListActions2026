@@ -22,10 +22,14 @@
                     case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
+
                     case "contains": int element= int.Parse(cmd[1]);
                         if(nums.Contains(element))
                             Console.WriteLine("Yes");
                         else Console.WriteLine("No");
+                        break;
+                    case "del": element= int.Parse(cmd[1]);
+                        nums.Remove(element);
                         break;
 
 
