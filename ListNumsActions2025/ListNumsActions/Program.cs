@@ -22,7 +22,7 @@
                     case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
-                    case "contains":
+                    case "del":
                         
                         //TODO
                         break;
